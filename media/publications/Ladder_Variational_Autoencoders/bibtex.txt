@@ -1,0 +1,6 @@
+@article{sonderby2016ladder,
+  title={Ladder Variational Autoencoders},
+  author={S{\o}nderby, Casper Kaae and Raiko, Tapani and Maal{\o}e, Lars and S{\o}nderby, S{\o}ren Kaae and Winther, Ole},
+  journal={arXiv preprint arXiv:1602.02282},
+  year={2016}
+}

@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<head>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="//use.typekit.net/elc1dez.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+
   {% include head.html %}
 
-  <body class="theme-base-08">
+  <body class="theme-base-0d">
 
     {% include sidebar.html %}
 
@@ -13,8 +28,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>  <small>{{ site.tagline }}</small>&nbsp&nbsp&nbsp&nbsp<small><b><a href="{{ site.baseurl }}/publications" title="About / Publications">About / Publications</a></b></small>
           </h3>
         </div>
       </div>
