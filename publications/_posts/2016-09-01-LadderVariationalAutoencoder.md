@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ladder Variational Autoencoders
-author: L. Maaløe, T. Raiko, C.K. Sønderby, S.K. Sønderby, O. Winther
+author: C.K. Sønderby, T. Raiko, L. Maaløe, S.K. Sønderby, O. Winther
 year: 2016
 key: 2016/09/03
 journal: Neural Information Processing Systems (NIPS)

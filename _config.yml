@@ -6,8 +6,8 @@ relative_permalinks: false
 
 # Setup
 title:               Casper Kaae Sønderby
-tagline:             'A Machine Learning Researcher     '
-description:         'Machine learning researcher interested in baysian learning and Deep Learning in general'
+tagline:             'A Machine Learning Researcher '
+description:         'Machine learning researcher interested in baysian learning and Deep Learning'
 url:                 casperkaae.github.io
 baseurl:             ''
 paginate:            5
