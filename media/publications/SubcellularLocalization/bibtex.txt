@@ -1,0 +1,8 @@
+@inproceedings{sonderby2015convolutional,
+  title={Convolutional LSTM networks for subcellular localization of proteins},
+  author={S{\o}nderby, S{\o}ren Kaae and S{\o}nderby, Casper Kaae and Nielsen, Henrik and Winther, Ole},
+  booktitle={International Conference on Algorithms for Computational Biology},
+  pages={68--80},
+  year={2015},
+  organization={Springer}
+}

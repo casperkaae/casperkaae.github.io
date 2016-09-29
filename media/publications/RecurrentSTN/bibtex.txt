@@ -1,0 +1,6 @@
+@article{sonderby2015recurrent,
+  title={Recurrent Spatial Transformer Networks},
+  author={S{\o}nderby, S{\o}ren Kaae and S{\o}nderby, Casper Kaae and Maal{\o}e, Lars and Winther, Ole},
+  journal={arXiv preprint arXiv:1509.05329},
+  year={2015}
+}

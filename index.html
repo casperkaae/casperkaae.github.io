@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications
+title: CasperKaae
 ---
 
 
@@ -32,6 +32,10 @@ title: Publications
     width:60%;
     margin: 0;
     padding: 0;
+}
+
+.about a:hover {
+	color: #666;
 }
 
 
@@ -66,7 +70,7 @@ title: Publications
 
 <div class="about">
     <img src="https://scholar.google.dk/citations?view_op=medium_photo&user=yzGdbKoAAAAJ&citpid=1" />
-    <p>I am a PhD student at the university of Copenhagen supervised by professor Ole Winther. I have recently been at a research stay at Twitter Cortex VX in London. Im interested in Bayesian inference, Variational inference and deep learning in general.</p>
+    <p>I am a PhD student at the university of Copenhagen supervised by professor <a href='http://cogsys.imm.dtu.dk/staff/winther/'>Ole Winther</a>. I have recently been at a research stay at Twitter Cortex VX in London. Im interested in Bayesian inference, Variational inference and deep learning in general.</p>
 </div>​
 
 
@@ -79,6 +83,7 @@ title: Publications
 <hr>
 
 <h3>Publications</h3>
+<a id="publications"></a>
 
 
 
@@ -89,7 +94,7 @@ title: Publications
     		{% if publication.image %}
 	  			<img src="{{publication.image}}" />
 		{% else %}
-			  	<img src="/media/dummyimage.png" />
+			  	<img src="/media/dummywhite.jpg" />
 		{% endif %}
 
    	<p>
@@ -124,3 +129,45 @@ title: Publications
  	</div>​
   {% endif %}
 {% endfor %}
+
+<hr>
+<a id="teaching"></a>
+<h3>Teaching</h3>
+
+Below you can find some of the teaching material for courses and workshops where I have teached.
+
+
+<br>
+<br>
+
+<div class="publication">
+    <img src="https://avatars3.githubusercontent.com/u/17336637?v=3&s=200" />
+    <p>     
+      <b><a style="color:#525252; padding:0px 0px" href=https://github.com/DeepLearningDTU/02456-deep-learning >DTU course 02456 Deep learning</b></a><br>
+        Programming Excercises (Theano/Lasagne) for the Deep Learning Graduate Course at the Technical University of Denmark running in the Fall of 2016
+        <br>
+        <a class="link" href=https://github.com/DeepLearningDTU/02456-deep-learning  style="color: white;background: #0E53A7">Code</a>
+    </p>
+</div>​
+
+
+
+<div class="publication">
+    <img src="/media/nvidia_logo.jpg" />
+    <p>     
+      <b><a style="color:#525252; padding:0px 0px" href=https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016 >Nvidia Deep Learning Summercamp 2016</b></a><br>
+              Programming Excercises (Theano/Lasagne) for the 2016 Nvidia Deep Learning Summercamp in London.
+              <br>
+        <a class="link" href=https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016  style="color: white;background: #0E53A7">Code</a>
+    </p>
+</div>​
+
+<div class="publication">
+    <img src="https://avatars3.githubusercontent.com/u/17336637?v=3&s=200" />
+    <p>     
+      <b><a style="color:#525252; padding:0px 0px" href=https://github.com/DeepLearningDTU/Summerschool_2015 >Deep Learning DTU summer school 2015</b></a><br>
+              Programming Excercises (Theano/Lasagne) for the 2015 Deep Learning Summerschool at the Technical University of Denmark. Exercises for lowe level implementation of a ConvNet in Numpy and high level Theano/Lasagne excercises. 
+              <br>
+        <a class="link" href=https://github.com/DeepLearningDTU/Summerschool_2015  style="color: white;background: #0E53A7">Code</a>
+    </p>
+</div>​
