@@ -1,21 +1,110 @@
 ---
 layout: default
+title: Publications
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-  	{% if post.type == "blog" %}
-     <a class="posttitle" href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }}</a>
 
-     <article class="post">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
 
-      <a class="link"  href="{{ site.baseurl }}{{ post.url }}" style="color: white; background: #0E53A7;">Read More</a>
-    </article>
+
+
+
+<style type="text/css">
+
+
+.about {
+	padding-bottom: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    font-size: 16px;
+
+}
+
+.about img {
+    margin-right: 15px;
+    float: left;
+}
+
+.publication {
+	padding-bottom: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.publication img {
+    margin-right: 15px;
+    float: left;
+    width:100px;
+
+}
+
+.publication p {
+    float: left;
+    width:500px;
+}
+
+
+</style>
+
+<h3>About</h3>
+
+<div class="about">
+    <img src="https://scholar.google.dk/citations?view_op=medium_photo&user=yzGdbKoAAAAJ&citpid=1" style="width: 200px;" />
+    <p>I am a PhD student at the university of Copenhagen supervised by professor Ole Winther. I have recently been at a research stay at Twitter Cortex VX in London. Im interested in Bayesian inference, Variational inference and deep learning in general.</p>
+</div>​
+
+
+
+
+<a class="link" href="mailto:casperkaae@gmail.com" style="color: white; background: #4daf4a;">casperkaae@gmail.com</a>
+<a class="link" href="https://scholar.google.dk/citations?user=yzGdbKoAAAAJ&hl=en" style="color: white; background: #e41a1c;">Google Scholar Profile</a>
+<a class="link" href="https://github.com/casperkaae" style="color: white; background: #0E53A7;">GitHub</a>
+<a class="link" href="https://www.linkedin.com/in/casper-kaae-s%C3%B8nderby-5b15a744?trk=hp-identity-name" style="color: white; background: #999999;">Linkedin</a>
+<hr>
+
+<h3>Publications</h3>
+
+
+
+  {% for publication in site.posts %}
+  	{% if publication.type == "paper" %}  
+	
+  	<div class="publication">
+    		{% if publication.image %}
+	  			<img src="{{publication.image}}" />
+		{% else %}
+			  	<img src="/media/dummyimage.png" />
+		{% endif %}
+
+   	<p>
+	    <b><a style="color:#525252; padding:0px 0px" href={{publication.link}} >{{ publication.title }}</b></a>
+	    <br>
+		{{ publication.author }}
+		<br>
+		{{ publication.journal }},  {{ publication.year }}<br>
+
+		{% if publication.pdf %}
+	  			<a class="link" href={{publication.pdf}}  style="color: white;background: #4daf4a">PDF</a>
+		{% endif %}
+
+		{% if publication.link %}
+	  			<a class="link" href={{publication.link}}  style="color: white;background: #984ea3">Abstract</a>
+		{% endif %}
+
+		{% if publication.bibtex %}
+	  			<a class="link" href="{{publication.bibtex}}" style="color: white; background: #e41a1c;">Bibtex</a>
+		{% endif %}
+
+		{% if publication.code %}
+	  			<a class="link" href={{publication.code}}  style="color: white;background: #0E53A7">Code</a>
+		{% endif %}
+
+		{% if publication.website %}
+	  			<a class="link" href={{publication.website}}  style="color: white;background: #d94801">Website</a>
+		{% endif %}
+
+
+ 	</p>
+ 	</div>​
   {% endif %}
-  {% endfor %}
-
-</div>
+{% endfor %}

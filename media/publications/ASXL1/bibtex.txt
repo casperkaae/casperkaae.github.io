@@ -1,0 +1,10 @@
+@article{wu2015tumor,
+  title={Tumor suppressor ASXL1 is essential for the activation of INK4B expression in response to oncogene activity and anti-proliferative signals},
+  author={Xudong Wu, Ida Holst Bekker-Jensen, Jesper Christensen, Kasper Dindler Rasmussen, Simone Sidoli, Yan Qi, Yu Kong, Xi Wang, Yajuan Cui, Zhijian Xiao, Guogang Xu, Kristine Williams, Juri Rappsilber, Casper Kaae Sønderby, Ole Winther, Ole N Jensen, Kristian Helin},
+  journal={Cell research},
+  volume={25},
+  number={11},
+  pages={1205--1218},
+  year={2015},
+  publisher={Nature Publishing Group}
+}
