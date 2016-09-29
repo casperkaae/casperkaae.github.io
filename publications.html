@@ -7,55 +7,70 @@ title: Publications
 
 
 
+
+
 <style type="text/css">
 
-.tg {font-family:Arial, sans-serif;font-weight: normal; font-size:14px;padding:0px 5px;border-width:0px;overflow:hidden;word-break:normal;text-align: left;background-color: #fff}
 
-.link {font-family:Arial, sans-serif;color: white ;opacity: 0.7;background: #666;padding: 2px 4px;font-size: 9pt;line-height: 18pt;border-radius: 4px; -moz-border-radius: 4px;-webkit-border-radius: 4px;}
+.about {
+	padding-bottom: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    font-size: 16px;
+
+}
+
+.about img {
+    margin-right: 15px;
+    float: left;
+}
+
+.publication {
+	padding-bottom: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+
+}
+
+.publication img {
+    margin-right: 15px;
+    float: left;
+}
+
 </style>
 
-<h2>About</h2>
+<h3>About</h3>
+
+<div class="about">
+    <img src="https://scholar.google.dk/citations?view_op=medium_photo&user=yzGdbKoAAAAJ&citpid=1" style="width: 200px;" />
+    <p>I am a PhD student at the university of Copenhagen supervised by professor Ole Winther. I have recently at a research stay at Twitter Cortex VX in London. Im interested in Bayesian inference, Variational inference and deep learning in general.</p>
+</div>​
 
 
-<table class="tg">
-  <tr>
-    <td class='tg' width=150px> 
-  			<img src="https://scholar.google.dk/citations?view_op=medium_photo&user=yzGdbKoAAAAJ&citpid=1" style="width: 200px; " />
 
-    </td>
-     <td class='tg'> 
-    	I am a PhD student at the university of Copenhagen supervised by professor Ole Winther. I have recently at a research stay at Twitter Cortex VX in London. Im interested in Bayesian inference, Variational inference and deep learning in general.
-    </td>
-  </tr>
-</table>
 
 <a class="link" href="mailto:casperkaae@gmail.com" style="color: white; background: #4daf4a;">casperkaae@gmail.com</a>
 <a class="link" href="https://scholar.google.dk/citations?user=yzGdbKoAAAAJ&hl=en" style="color: white; background: #e41a1c;">Google Scholar Profile</a>
 <a class="link" href="https://github.com/casperkaae" style="color: white; background: #0E53A7;">GitHub</a>
 <a class="link" href="https://www.linkedin.com/in/casper-kaae-s%C3%B8nderby-5b15a744?trk=hp-identity-name" style="color: white; background: #999999;">Linkedin</a>
+<hr>
+
+<h3>Publications</h3>
 
 
 
-
-<h2>Publications</h2>
-
-
-
-
-{% assign publications = (site.categories.publications | sort: 'date') | reverse %}
-{% for publication in publications %}
-  
-	<table class="tg">
-	  <tr>
-	    <td class='tg', width=80px> 
-		{% if publication.image %}
+  {% for publication in site.posts %}
+  	{% if publication.type == "paper" %}  
+	
+  	<div class="publication">
+    		{% if publication.image %}
 	  			<img src="{{publication.image}}" style="width: 80px; height: 80px;" />
 		{% else %}
 			  	<img src="/media/dummyimage.png" style="width: 80px; height: 80px;" />
 		{% endif %}
 
-	    </td>
-	    <td class='tg'><b><a style="color:#525252;" href={{publication.link}} >{{ publication.title }}</b><br></a>
+   	<p>
+	    <b><a style="color:#525252; padding:0px 5px" href={{publication.link}} >{{ publication.title }}</b><br></a>
 		{{ publication.author }}
 		<br>
 		{{ publication.journal }},  {{ publication.year }}<br>
@@ -76,13 +91,7 @@ title: Publications
 	  			<a class="link" href={{publication.code}}  style="color: white;background: #0E53A7">Code</a>
 		{% endif %}
 
-
-
-
-
-
-	    </td>
-	  </tr>
-	</table>
-
+ 	</p>
+ 	</div>​
+  {% endif %}
 {% endfor %}
