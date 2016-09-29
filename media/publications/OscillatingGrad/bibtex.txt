@@ -1,0 +1,10 @@
+@article{lundell2015diffusion,
+  title={Diffusion weighted imaging with circularly polarized oscillating gradients},
+  author={Lundell, Henrik and S{\o}nderby, Casper Kaae and Dyrby, Tim B},
+  journal={Magnetic resonance in medicine},
+  volume={73},
+  number={3},
+  pages={1171--1176},
+  year={2015},
+  publisher={Wiley Online Library}
+}

@@ -1,0 +1,11 @@
+
+@article{jespersen2013orientationally,
+  title={Orientationally invariant metrics of apparent compartment eccentricity from double pulsed field gradient diffusion experiments},
+  author={Jespersen, Sune N{\o}rh{\o}j and Lundell, Henrik and S{\o}nderby, Casper Kaae and Dyrby, Tim B},
+  journal={NMR in Biomedicine},
+  volume={26},
+  number={12},
+  pages={1647--1662},
+  year={2013},
+  publisher={Wiley Online Library}
+}
