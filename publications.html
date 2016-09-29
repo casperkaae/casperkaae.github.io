@@ -29,13 +29,20 @@ title: Publications
 	padding-bottom: 10px;
     padding-right: 20px;
     overflow: hidden;
-
 }
 
 .publication img {
     margin-right: 15px;
     float: left;
+    width:100px;
+
 }
+
+.publication p {
+    float: left;
+    width:500px;
+}
+
 
 </style>
 
@@ -64,13 +71,14 @@ title: Publications
 	
   	<div class="publication">
     		{% if publication.image %}
-	  			<img src="{{publication.image}}" style="width: 80px; height: 80px;" />
+	  			<img src="{{publication.image}}" />
 		{% else %}
-			  	<img src="/media/dummyimage.png" style="width: 80px; height: 80px;" />
+			  	<img src="/media/dummyimage.png" />
 		{% endif %}
 
    	<p>
-	    <b><a style="color:#525252; padding:0px 5px" href={{publication.link}} >{{ publication.title }}</b><br></a>
+	    <b><a style="color:#525252; padding:0px 0px" href={{publication.link}} >{{ publication.title }}</b></a>
+	    <br>
 		{{ publication.author }}
 		<br>
 		{{ publication.journal }},  {{ publication.year }}<br>
@@ -90,6 +98,11 @@ title: Publications
 		{% if publication.code %}
 	  			<a class="link" href={{publication.code}}  style="color: white;background: #0E53A7">Code</a>
 		{% endif %}
+
+		{% if publication.website %}
+	  			<a class="link" href={{publication.website}}  style="color: white;background: #d94801">Website</a>
+		{% endif %}
+
 
  	</p>
  	</div>​
