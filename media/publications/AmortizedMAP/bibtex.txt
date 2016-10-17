@@ -1,0 +1,6 @@
+@article{sonderby2014apparent,
+  title={Amortised MAP Inference for Image Super-resolution},
+  author={S{\o}nderby, Casper Kaae and Caballero, Jose and Theis ,Lucas and Shi, Wenzhe and Husz\'{a}r, Ferenc},
+  journal={arXiv preprint arXiv:1610.04490},
+  year={2016}
+}
