@@ -10,5 +10,6 @@ bibtex: /media/publications/AmortizedMAP/bibtex.txt
 pdf: https://arxiv.org/pdf/1610.04490v1.pdf
 image: /media/publications/AmortizedMAP/image.jpg
 type: paper
+blog: http://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/
 ---
 
