@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recurrent Spatial Transformer Networks
-author: C.K. Sønderby, S.K. Sønderby, L. Maaløe, O. Winther
+author: S.K. Sønderby, C.K. Sønderby, L. Maaløe, O. Winther
 year: 2015
 key: 2015.1
 journal: ArXiv Preprint

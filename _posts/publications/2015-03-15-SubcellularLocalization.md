@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convolutional LSTM networks for subcellular localization of proteins
-author: C.K. Sønderby, S.K. Sønderby, H. Nielsen, O. Winther
+author: S.K. Sønderby, C.K. Sønderby, H. Nielsen, O. Winther
 year: 2015
 key: 2015.2
 journal: International Conference on Algorithms for Computational Biology
