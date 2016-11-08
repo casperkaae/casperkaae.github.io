@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apparent exchange rate imaging in anisotropic systems
-author: H. Lundell, C.K. Sønderby, L.V. Søgaard, T.B Dyrby
+author: C.K. Sønderby, H. Lundell,  L.V. Søgaard, T.B Dyrby
 year: 2014
 key: 2014.10
 journal: Magnetic resonance in medicine
@@ -10,4 +10,3 @@ bibtex: /media/publications/ApparentExchange/bibtex.txt
 image: /media/publications/ApparentExchange/image.jpg
 type: paper
 ---
-
