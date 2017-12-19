@@ -1,0 +1,6 @@
+@article{sonderbypoole2017,
+  title={Continuous Relaxation Training of Discrete Latent Variable Image Models},
+  author={S{\o}nderby, Casper Kaae and Poole, Ben and Mnih, Andriy},
+  journal={Beysian DeepLearning workshop, NIPS 2017},
+  year={2017}
+}
