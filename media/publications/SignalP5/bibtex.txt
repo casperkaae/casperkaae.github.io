@@ -1,0 +1,8 @@
+@article{armenteros2019signalp,
+  title={SignalP 5.0 improves signal peptide predictions using deep neural networks},
+  author={Armenteros, Jos{\'e} Juan Almagro and Tsirigos, Konstantinos D and S{\o}nderby, Casper Kaae and Petersen, Thomas Nordahl and Winther, Ole and Brunak, S{\o}ren and von Heijne, Gunnar and Nielsen, Henrik},
+  journal={Nature biotechnology},
+  pages={1},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
