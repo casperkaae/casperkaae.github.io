@@ -1,0 +1,6 @@
+@article{sonderby2020metnet,
+  title={MetNet: A Neural Weather Model for Precipitation Forecasting},
+  author={S{\o}nderby, Casper Kaae and Espeholt, Lasse and Heek ,Jonatan and Dehghani, Mostafa and Oliver, Avital and Salimans, Tim and Agrawal, Shreya and Hickey, Jason and Kalchbrenner, Nal},
+  journal={https://arxiv.org/abs/2003.12140},
+  year={2020}
+}
