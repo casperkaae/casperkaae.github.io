@@ -1,0 +1,6 @@
+@article{berg2020idf++,
+  title={IDF++: Analyzing and Improving Integer Discrete Flows for Lossless Compression},
+  author={Berg, Rianne van den and Gritsenko, Alexey A and Dehghani, Mostafa and S{\o}nderby, Casper Kaae and Salimans, Tim},
+  journal={arXiv preprint arXiv:2006.12459},
+  year={2020}
+}
